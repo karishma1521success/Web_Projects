@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body>
+    <!-- bootstrap-navbar -->
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle my-3 my-3 me-sm-3 ms-sm-3">
+        <div class="container-fluid fw-semibold">
+            <a class="navbar-brand d-xl-none" href="#">Company Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 text-secondary border border-secondary" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light border-1 border-info text-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- caursale part  -->
+   
+    <div id="carouselExampleCaptions" class="carousel slide my-3 me-sm-3 ms-sm-3" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1653061853347-4fbf052530e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1209&q=80" class="d-block w-100" alt="image1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1675185521732-e0024ef1e229?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="image2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1675151638911-b32b354c4e4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" alt="image3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- cards -->
+                  
+    <div class="container-fluid my-3">
+        <div class="row">
+            <div class="col-sm-4 my-2">
+                <div class="card border-dark-subtle">
+                    <div class="card-header fw-semibold">Card Header</div>
+                    <div class="card-body ps-0 pe-0 pt-0">
+                        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="card-img" class="card-img-top">
+                        <h5 class="card-title ms-3 mt-2">Card Title</h5>
+                        <p class="card-subtitle ms-3 text-secondary fw-semibold">Sub Title</p>
+                        <p class="card-text ms-3 text-dark fw-semibold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary ms-3">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush fw-semibold">
+                        <li class="list-group-item">1st list item</li>
+                        <li class="list-group-item">2nd list item</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    <div class="card-footer fw-semibold">Card-footer</div>
+                </div>
+            </div>
+            <div class="col-sm-4 my-2"> 
+                <div class="card border-dark-subtle">
+                    <div class="card-header fw-semibold">Card Header</div>
+                    <div class="card-body ps-0 pe-0 pt-0">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="card-img" class="card-img-top">
+                        <h5 class="card-title ms-3 mt-2">Card Title</h5>
+                        <p class="card-subtitle ms-3 text-secondary fw-semibold">Sub Title</p>
+                        <p class="card-text ms-3 fw-semibold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary ms-3">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush fw-semibold">
+                        <li class="list-group-item">1st list item</li>
+                        <li class="list-group-item">2nd list item</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    <div class="card-footer fw-semibold">Card Footer</div>
+                </div>
+            </div>
+            <div class="col-sm-4 my-2">
+                <div class="card border-dark-subtle">
+                    <div class="card-header fw-semibold">Card Header</div>
+                    <div class="card-body ps-0 pe-0 pt-0">
+                        <img src="https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" alt="card-img" class="card-img-top">
+                        <h5 class="card-title ms-3 mt-2">Card Title</h5>
+                        <p class="card-subtitle ms-3 text-secondary fw-semibold">Sub Title</p>
+                        <p class="card-text ms-3 fw-semibold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary ms-3">Go somewhere</a>
+                    </div>
+                    <ul class="list-group list-group-flush fw-semibold">
+                        <li class="list-group-item">1st list item</li>
+                        <li class="list-group-item">2nd list item</li>
+                      </ul>
+                      <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
+                    <div class="card-footer fw-semibold">Card-footer</div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-- accordian -->
+    <div class="accordion m-2" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item border-3 border-start-0 border-end-0 border-dark-subtle">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- title -->
+
+    <div class="container-fluid my-3"> 
+    <table class="table">
+        <thead>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-dark">
+                <th scope="col">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <th scope="col" class="fw-bold">Title</th>
+                <th scope="col" class="fw-bold">Title</th>
+                <th scope="col" class="fw-bold">Title</th>
+                <th scope="col" class="fw-bold">Title</th>
+                <th scope="col" class="fw-bold">Title</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+            <tr class="border border-2 border-top-0 border-start-0 border-end-0 border-secondary-subtle">
+                <th scope="row">
+                    <div class="form-check">
+                    <input class="form-check-input border-1 border-dark-subtle" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault"></label>
+                    </div>
+                </th>
+                <td>
+                    <span class="material-icons text-secondary text-secondary">
+                        drag_indicator
+                    </span>
+                </td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">Text line</td>
+                <td class="fw-semibold">
+                    <a href="#" class="text-decoration-none me-2">Publish</a>
+                    <a href="#" class="text-decoration-none me-2">Edit</a>
+                    <a href="#" class="text-decoration-none">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+     <!-- form  -->
+    <div class="container-fluid my-3">
+        <h3>Bootstrap Form</h3>
+        <form>
+            <div class="row my-2">
+                <div class="col-sm-6 mb-sm-0 mb-2">
+                    <input type="text" class="form-control rounded-0 border-dark-subtle" placeholder="First Name">
+                </div>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control rounded-0 border-dark-subtle" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col">
+                    <input class="form-control rounded-0 border-dark-subtle" type="email" name="email" id="Email" placeholder="Email">
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col">
+                    <input type="password" class="form-control rounded-0 border-dark-subtle" name="password" id="Password" placeholder="Password">
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col">
+                    <input type="text" class="form-control rounded-0 border-dark-subtle" name="confirm-password" id="confirm-Password" placeholder="Confirm Password">
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary my-3">Submit Form</button>
+        </form>
+    </div>
+
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
